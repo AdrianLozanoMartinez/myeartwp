@@ -165,3 +165,8 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 element.style {
     margin-bottom: 0;
 }
+
+:where(body .is-layout-constrained) > * {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
