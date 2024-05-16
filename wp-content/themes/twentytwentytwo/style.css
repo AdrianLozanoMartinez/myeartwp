@@ -37,11 +37,13 @@ body {
 a {
 	text-decoration-thickness: 1px;
 	text-underline-offset: 0.25ch;
+	text-decoration: none;
 }
 
 a:hover,
 a:focus {
 	text-decoration-style: dashed;
+	text-decoration: none;
 }
 
 a:active {
@@ -50,8 +52,9 @@ a:active {
 
 .wp-block-navigation .wp-block-navigation-item a:hover,
 .wp-block-navigation .wp-block-navigation-item a:focus {
-	text-decoration: underline;
+	text-decoration: none;
 	text-decoration-style: solid;
+	color: rgb(197, 143, 102);
 }
 
 /*
@@ -158,4 +161,7 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
 
 .wp-block-post-comments ol.commentlist li.comment:not(:last-child) {
 	margin-bottom: 1rem;
+}
+element.style {
+    margin-bottom: 0;
 }
