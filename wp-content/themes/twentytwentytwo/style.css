@@ -72,6 +72,7 @@ a:active {
 	color: var(--wp--preset--color--background);
 	font-size: var(--wp--preset--font-size--medium);
 	padding: calc(.667em + 2px) calc(1.333em + 2px);
+	background-color: rgb(197, 143, 102);
 }
 
 /*
@@ -169,4 +170,11 @@ element.style {
 :where(body .is-layout-constrained) > * {
     margin-block-start: 0;
     margin-block-end: 0;
+}
+.wp-block-spacer {
+	display: none;
+}
+
+.wp-block-group{
+	margin-top: 0;
 }
