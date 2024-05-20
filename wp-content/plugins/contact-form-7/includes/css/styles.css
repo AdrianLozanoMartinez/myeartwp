@@ -172,17 +172,17 @@ form.submitting .wpcf7-spinner {
 }
 
 .wpcf7 { 
-    background-color: white;
-    box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
-	width: 50em;
-	padding-top: 5em;
-	padding-bottom: 5em;
-	padding-left: 10em;
-	margin-left:-12em;
+    /*background-color: white;*/
+    /*box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);*/
+	/*width: 50em;*/
+	/*padding-top: 5em;*/
+	/*padding-bottom: 5em;*/
+	/*padding-left: 10em;
+	margin-left:-12em;*/
 }
 
 .wpcf7-text {
-    max-width: 200em;
+    /*max-width: 200em;*/
 }
 
 :where(body .is-layout-flow) > * {
@@ -202,7 +202,7 @@ hr{display:none}
 
 textarea.wpcf7-form-control.wpcf7-textarea, .wpcf7-form-control, wpcf7-text wpcf7-validates-as-required{
 	height: 3em;	
-	width: 50em;
+	width: 100%;
 	 box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 10px;
 }
@@ -212,17 +212,14 @@ textarea.wpcf7-form-control.wpcf7-textarea:hover, .wpcf7-form-control:hover, wpc
 }
 
 .wpcf7-submit{
-	margin-top: 1em;
-    padding: 0.5em;
-    padding-left: 5em;
-    padding-right: 5em;
     font-weight: bold;
     background-color: rgb(178 121 76/1);
     border-color: rgb(178 121 76/1);
 	color: white;
 	border-radius: 5px;
 	width: 25%;
-	margin-left: 25%;
+	margin-left: 35%;
+	margin-right: 35%;
 }
 
 .wpcf7-submit:hover{
