@@ -3,7 +3,7 @@
  * Plugin Name: WooCommerce
  * Plugin URI: https://woocommerce.com/
  * Description: An ecommerce toolkit that helps you sell anything. Beautifully.
- * Version: 8.9.0
+ * Version: 8.9.1
  * Author: Automattic
  * Author URI: https://woocommerce.com
  * Text Domain: woocommerce
@@ -69,3 +69,5 @@ $GLOBALS['woocommerce'] = WC();
 if ( class_exists( \Automattic\Jetpack\Connection\Rest_Authentication::class ) ) {
 	\Automattic\Jetpack\Connection\Rest_Authentication::init();
 }
+
+
