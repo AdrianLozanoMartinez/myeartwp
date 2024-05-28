@@ -6614,3 +6614,13 @@ p.vendor-customer-registration .radio:hover {
 	height: 25em !important;
 }
 
+/*attachment-woocommerce_thumbnail size-woocommerce_thumbnail*/
+.wp-element-button, .wp-block-button__link {
+	background-color: rgb(197, 143, 102) !important;
+	border-radius: 50px;
+}
+
+.attachment-woocommerce_thumbnail, .size-woocommerce_thumbnail{
+	width: 10em !important; 
+	margin-left: 4em;
+}

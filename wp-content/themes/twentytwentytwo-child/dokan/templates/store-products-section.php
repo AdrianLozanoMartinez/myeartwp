@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="../../style.css">
 <?php
 /**
  * The template for display additional products section

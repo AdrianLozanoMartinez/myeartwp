@@ -1,4 +1,4 @@
-<?php
+<link rel="stylesheet" href="style.css"><?php
 /**
  * @since 3.6.4
  *
