@@ -15,19 +15,13 @@ $store_info   = $store_user->get_shop_info();
 $map_location = $store_user->get_location();
 $layout       = get_theme_mod( 'store_layout', 'left' );
 
-<<<<<<< Updated upstream
-get_header( 'shop' );
-=======
 get_header();
 
->>>>>>> Stashed changes
 
 if ( function_exists( 'yoast_breadcrumb' ) ) {
     yoast_breadcrumb( '<p id="breadcrumbs">', '</p>' );
 }
 ?>
-<<<<<<< Updated upstream
-=======
 
 <header class="wp-block-template-part">
 <div class="wp-block-cover has-aspect-ratio" style="min-height:371px;aspect-ratio:auto;min-height:unset;"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-40 has-background-dim" style="background-color:#2b1711"></span><img fetchpriority="high" decoding="async" width="2156" height="1080" class="wp-block-cover__image-background wp-image-188" alt="" src="https://infallible-nash.217-160-155-66.plesk.page/wp-content/uploads/2024/05/bg-woman.webp" data-object-fit="cover" srcset="https://infallible-nash.217-160-155-66.plesk.page/wp-content/uploads/2024/05/bg-woman.webp 2156w, https://infallible-nash.217-160-155-66.plesk.page/wp-content/uploads/2024/05/bg-woman-600x301.webp 600w, https://infallible-nash.217-160-155-66.plesk.page/wp-content/uploads/2024/05/bg-woman-300x150.webp 300w, https://infallible-nash.217-160-155-66.plesk.page/wp-content/uploads/2024/05/bg-woman-1024x513.webp 1024w, https://infallible-nash.217-160-155-66.plesk.page/wp-content/uploads/2024/05/bg-woman-768x385.webp 768w, https://infallible-nash.217-160-155-66.plesk.page/wp-content/uploads/2024/05/bg-woman-1536x769.webp 1536w, https://infallible-nash.217-160-155-66.plesk.page/wp-content/uploads/2024/05/bg-woman-2048x1026.webp 2048w, https://infallible-nash.217-160-155-66.plesk.page/wp-content/uploads/2024/05/bg-woman-1568x785.webp 1568w" sizes="(max-width: 2156px) 100vw, 2156px"><div class="wp-block-cover__inner-container is-layout-constrained wp-block-cover-is-layout-constrained">
@@ -68,7 +62,6 @@ if ( function_exists( 'yoast_breadcrumb' ) ) {
 </div>
 </div></div>
 </header>
->>>>>>> Stashed changes
 <?php do_action( 'woocommerce_before_main_content' ); ?>
 
 <div class="dokan-store-wrap layout-<?php echo esc_attr( $layout ); ?>">
@@ -138,8 +131,4 @@ if ( function_exists( 'yoast_breadcrumb' ) ) {
 
 <?php do_action( 'woocommerce_after_main_content' ); ?>
 
-<<<<<<< Updated upstream
-<?php get_footer( 'shop' ); ?>
-=======
 <?php get_footer(); ?>
->>>>>>> Stashed changes
