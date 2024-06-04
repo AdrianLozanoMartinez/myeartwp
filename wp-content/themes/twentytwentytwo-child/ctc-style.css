@@ -2,4 +2,15 @@
 CTC Separate Stylesheet
 Updated: 2024-05-21 10:52:29
 */
-
+@media only screen and (max-width: 768px) { 
+	.wp-block-button__link, .wp-element-button, .wp-block-button  {
+		font-size: 0.9rem !important;
+	}
+	.wp-block-navigation-item__content, .wp-block-navigation__responsive-container-content{
+		font-size: 0.9rem !important;
+	}
+	
+	.wp-block-group, .is-layout-flow, .wp-block-group-is-layout-flow{
+		margin-top: 0.8em !important;	
+	}
+}

@@ -8,7 +8,6 @@ Description: Built on a solidly designed foundation, Twenty Twenty-Two embraces 
 Tags: one-column,custom-colors,custom-menu,custom-logo,editor-style,featured-images,full-site-editing,block-patterns,rtl-language-support,sticky-post,threaded-comments,style-variations,wide-blocks,block-styles,accessibility-ready,blog,portfolio,news
 Version: 1.7.1716288743
 Updated: 2024-05-21 10:52:23
-
 */
 
 
@@ -166,28 +165,10 @@ element.style {
     margin-block-start: 0;
     margin-block-end: 0;
 }
-/*.wp-block-spacer {
-	display: none;
-}*/
 
 .wp-block-group{
 	margin-top: 0;
 }
-
-/*************************************************************************************************************************/
-
-/*element.style {
-    margin-bottom: 0;
-}
-
-:where(body .is-layout-constrained) > * {
-    margin-block-start: 0;
-    margin-block-end: 0;
-}
-
-.wp-block-group{
-	margin-top: 0;
-}*/
 
 /*
  * Font smoothing.
@@ -223,14 +204,12 @@ a:active {
 	text-decoration: none;
 }
 
-/************************************************************************************************************************************/
 .wp-block-navigation .wp-block-navigation-item a:hover,
 .wp-block-navigation .wp-block-navigation-item a:focus {
 	text-decoration: none;
 	text-decoration-style: solid;
 	color: rgb(197, 143, 102);
 }
-/*****************************************************************************************************************************************/
 
 /*
  * Search and File Block button styles.
@@ -249,7 +228,6 @@ a:active {
 	padding: calc(.667em + 2px) calc(1.333em + 2px);
 	background-color: rgb(197, 143, 102);
 }
-/*********************************************************************************************************************************************/
 
 /*
  * Button hover styles.
@@ -332,7 +310,6 @@ body > .is-root-container > .wp-block-template-part > .wp-block-cover,
  * https://core.trac.wordpress.org/ticket/57560
  */
 
-/*************************************************************************************************************************************/
 .wp-block-post-comments ol.commentlist ul.children {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
@@ -362,7 +339,7 @@ element.style {
 	background-color:transparent !important;
 	color: white !important;
 }
-/*******************************************************************************************************************************************/
+
 .wp-block-navigation-item__label:hover{
 	color: rgb(178 121 76/1) !important;
 }
@@ -375,8 +352,6 @@ element.style {
 	display: flex !important;
 	justify-content: center !important;
 }
-
-/**********************************************************************************************************************************************/
 
 .wp-block-navigation-item__label{
 	color: white !important;
@@ -394,8 +369,6 @@ li {
     list-style-type: none !important;
 }
 
-/****************************************************************************************************************************/
-
 .wp-block-site-logo{
 	left: 0 !important;
 	margin-top: -4em !important;
@@ -412,7 +385,6 @@ li {
 	color: black !important;
 }
 
-/*******************************************************************************************************************/
 .wp-block-group, .alignfull, .has-background-color, .has-text-color, .has-link-color, .wp-elements-d4618711069812840c2870c056d17591, .is-content-justification-space-between, .is-layout-flex, .wp-container-core-group-is-layout-4, .wp-block-group-is-layout-flex{
 	/*margin-top: -8em !important;*/
 	background-color: transparent !important;
@@ -468,8 +440,22 @@ h1, .wp-block-navigation__responsive-container-open, .wp-block-navigation__respo
 	width: 1em !important; 
 }
 
-/**********************************************New*/
 .wp-block-button__link, .wp-element-button, .wp-block-button, .wp-block-button, .wp-block-group, .is-content-justification-center, .is-layout-flex, .wp-container-core-group-is-layout-3, .wp-block-group-is-layout-flex{
 	border-radius: 50px !important;
 }
 
+.wp-block-cover__background, .has-background-dim{
+	width: 100% !important;
+}
+
+.bp-pagination, .bottom, .pag-count, .pag-data{
+	display: none !important;
+}
+
+/*.wp-block-template-part{
+	display:none !important;
+}*/
+
+#groups-all, .selected{
+	background-color: black !important;
+}

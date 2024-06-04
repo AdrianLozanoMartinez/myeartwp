@@ -6628,3 +6628,43 @@ p.vendor-customer-registration .radio:hover {
 	text-align: center;
 	margin-top: 1em !important;
 }
+
+.dokan-store-list-filter-button, .dokan-btn dokan-btn-theme, #apply-filter-btn, .dashicons, .dashicons-arrow-right-alt2, .dokan-btn-theme, .dokan-btn-round{
+	background-color: rgb(197, 143, 102) !important;
+	margin-right: 0.5em !important;
+	border-color: rgb(197, 143, 102) !important;
+}
+
+.wp-block-woocommerce-customer-account .label {
+	color: white;
+}
+
+.dashicons, .dashicons-screenoptions active{
+	background-color: transparent !important;
+	color: black !important;
+}
+
+@media only screen and (max-width: 768px) { 
+	.wp-block-navigation__responsive-container-content  {
+		font-size: 1rem !important;
+		margin-bottom: 3em !important;
+	}
+}
+
+@media only screen and (max-width: 768px) { 
+	.wp-block-navigation-item, .is-style-default, .wp-block-navigation-link, .has-small-font-size {
+		font-size: 0.1rem !important;
+	}
+}
+
+#um_field_495_username{
+	margin-top: 5em;
+}
+
+.um-link-alt{
+	margin-bottom: 5em;
+}
+
+.entry-content, .wp-block-post-content, .is-layout-constrained, .wp-block-post-content-is-layout-constrained{
+	border: 0.1em solid black;
+}

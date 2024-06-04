@@ -103,3 +103,9 @@
 		margin-right: 20px;
 	}
 }
+
+
+
+.wp-block-template-part{
+	display:none !important;
+}
