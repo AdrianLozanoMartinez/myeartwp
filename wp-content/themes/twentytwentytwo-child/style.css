@@ -459,3 +459,13 @@ h1, .wp-block-navigation__responsive-container-open, .wp-block-navigation__respo
 #groups-all, .selected{
 	background-color: black !important;
 }
+
+.products-list-heading, .product-name-search, .dokan-store-products-filter-search{
+	margin-left: 1em;
+}
+
+.product-name-search, .dokan-store-products-filter-search{
+	margin-left: 4em;
+}
+
+

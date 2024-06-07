@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - BuddyPress - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-05-15 15:57:53+0000\n"
+"PO-Revision-Date: 2024-06-06 10:50:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -823,6 +823,18 @@ msgstr "La lista de IDs de actividad que ha marcado como favoritos un usuario."
 msgid "A BuddyPress page has been added for the following active BuddyPress Components which did not have associated BuddyPress Pages yet: %s. You may need to refresh your permalink settings."
 msgstr "Se ha añadido una página de BuddyPress para los siguientes componentes de BuddyPress que no tienen todavía asociada ninguna página de BuddyPress: %s. Puede que tengas que recargar tus ajustes de enlaces permanentes."
 
+#: bp-activity/classes/class-bp-activity-component.php:195
+#: bp-blogs/classes/class-bp-blogs-component.php:60
+#: bp-friends/classes/class-bp-friends-component.php:121
+#: bp-groups/classes/class-bp-groups-component.php:477
+#: bp-members/classes/class-bp-members-component.php:324
+#: bp-messages/classes/class-bp-messages-component.php:159
+#: bp-notifications/classes/class-bp-notifications-component.php:107
+#: bp-settings/classes/class-bp-settings-component.php:110
+#: bp-xprofile/classes/class-bp-xprofile-component.php:143
+msgid "Slug constants are deprecated."
+msgstr "Las constantes de los slugs se han marcado como obsoletas."
+
 #: bp-blogs/bp-blogs-widgets.php:14
 #: bp-blogs/classes/class-bp-blogs-recent-posts-widget.php:14
 #: bp-core/bp-core-widgets.php:14
@@ -841,18 +853,6 @@ msgstr "Se ha añadido una página de BuddyPress para los siguientes componentes
 #: bp-templates/bp-nouveau/includes/classes/class-bp-nouveau-object-nav-widget.php:13
 msgid "BuddyPress does not include Legacy Widgets anymore, you can restore it using the BP Classic plugin"
 msgstr "BuddyPress ya no inlcuye widgets heredados, puedes restaurarlos usando el plugin BP Clásico"
-
-#: bp-activity/classes/class-bp-activity-component.php:195
-#: bp-blogs/classes/class-bp-blogs-component.php:60
-#: bp-friends/classes/class-bp-friends-component.php:121
-#: bp-groups/classes/class-bp-groups-component.php:477
-#: bp-members/classes/class-bp-members-component.php:324
-#: bp-messages/classes/class-bp-messages-component.php:159
-#: bp-notifications/classes/class-bp-notifications-component.php:107
-#: bp-settings/classes/class-bp-settings-component.php:110
-#: bp-xprofile/classes/class-bp-xprofile-component.php:143
-msgid "Slug constants are deprecated."
-msgstr "Las constantes de los slugs se han marcado como obsoletas."
 
 #: bp-core/classes/class-bp-admin.php:1649
 msgid "No new Admin Notfications"
@@ -5522,6 +5522,11 @@ msgstr "URL del avatar con tamaño de imagen en miniatura (%1$d x %2$d píxeles)
 msgid "Avatar URL with full image size (%1$d x %2$d pixels)."
 msgstr "URL del avatar con tamaño de imagen completo (%1$d x %2$d píxeles)."
 
+#: bp-members/classes/class-bp-rest-attachments-member-avatar-endpoint.php:70
+#: bp-members/classes/class-bp-rest-members-endpoint.php:981
+msgid "A unique numeric ID for the Member."
+msgstr "Un ID numérico único para el miembro."
+
 #: bp-groups/classes/class-bp-rest-group-invites-endpoint.php:213
 #: bp-groups/classes/class-bp-rest-group-invites-endpoint.php:248
 #: bp-groups/classes/class-bp-rest-group-invites-endpoint.php:270
@@ -5539,31 +5544,12 @@ msgstr "URL del avatar con tamaño de imagen completo (%1$d x %2$d píxeles)."
 msgid "Invalid member ID."
 msgstr "ID de miembro no válido."
 
-#: bp-members/classes/class-bp-rest-attachments-member-avatar-endpoint.php:70
-#: bp-members/classes/class-bp-rest-members-endpoint.php:981
-msgid "A unique numeric ID for the Member."
-msgstr "Un ID numérico único para el miembro."
-
 #: bp-groups/classes/class-bp-rest-attachments-group-avatar-endpoint.php:223
 #: bp-groups/classes/class-bp-rest-attachments-group-cover-endpoint.php:210
 #: bp-members/classes/class-bp-rest-attachments-member-avatar-endpoint.php:214
 #: bp-members/classes/class-bp-rest-attachments-member-cover-endpoint.php:204
 msgid "Sorry, you need an image file to upload."
 msgstr "Lo siento, tienes que subir un archivo de imagen."
-
-#: bp-groups/classes/class-bp-rest-attachments-group-avatar-endpoint.php:134
-msgid "Sorry, there was a problem fetching this group avatar."
-msgstr "Lo siento, ocurrió un problema al recuperar el avatar de este grupo."
-
-#: bp-groups/classes/class-bp-rest-attachments-group-avatar-endpoint.php:80
-#: bp-groups/classes/class-bp-rest-attachments-group-cover-endpoint.php:82
-#: bp-groups/classes/class-bp-rest-group-membership-endpoint.php:63
-#: bp-groups/classes/class-bp-rest-group-membership-endpoint.php:89
-#: bp-groups/classes/class-bp-rest-group-membership-endpoint.php:870
-#: bp-groups/classes/class-bp-rest-groups-endpoint.php:60
-#: bp-groups/classes/class-bp-rest-groups-endpoint.php:1218
-msgid "A unique numeric ID for the Group."
-msgstr "Un ID numérico único para el grupo."
 
 #: bp-blogs/classes/class-bp-rest-attachments-blog-avatar-endpoint.php:180
 #: bp-groups/classes/class-bp-rest-attachments-group-avatar-endpoint.php:183
@@ -5581,6 +5567,20 @@ msgstr "Un ID numérico único para el grupo."
 #: bp-groups/classes/class-bp-rest-groups-endpoint.php:587
 msgid "Invalid group ID."
 msgstr "ID de grupo no válido."
+
+#: bp-groups/classes/class-bp-rest-attachments-group-avatar-endpoint.php:134
+msgid "Sorry, there was a problem fetching this group avatar."
+msgstr "Lo siento, ocurrió un problema al recuperar el avatar de este grupo."
+
+#: bp-groups/classes/class-bp-rest-attachments-group-avatar-endpoint.php:80
+#: bp-groups/classes/class-bp-rest-attachments-group-cover-endpoint.php:82
+#: bp-groups/classes/class-bp-rest-group-membership-endpoint.php:63
+#: bp-groups/classes/class-bp-rest-group-membership-endpoint.php:89
+#: bp-groups/classes/class-bp-rest-group-membership-endpoint.php:870
+#: bp-groups/classes/class-bp-rest-groups-endpoint.php:60
+#: bp-groups/classes/class-bp-rest-groups-endpoint.php:1218
+msgid "A unique numeric ID for the Group."
+msgstr "Un ID numérico único para el grupo."
 
 #: bp-templates/bp-nouveau/buddypress/members/single/settings/general.php:70
 msgid "Confirm use of potentially weak password"
@@ -13934,7 +13934,7 @@ msgstr "Web"
 #: bp-templates/bp-legacy/buddypress/members/single/profile/profile-wp.php:45
 #: bp-templates/bp-nouveau/includes/members/functions.php:481
 msgid "About Me"
-msgstr "Sobre mi"
+msgstr "Sobre mí"
 
 #: bp-core/classes/class-bp-admin-types.php:504 bp-core/deprecated/1.5.php:157
 #: bp-members/classes/class-bp-members-list-table.php:155

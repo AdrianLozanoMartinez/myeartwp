@@ -6665,6 +6665,18 @@ p.vendor-customer-registration .radio:hover {
 	margin-bottom: 5em;
 }
 
-.entry-content, .wp-block-post-content, .is-layout-constrained, .wp-block-post-content-is-layout-constrained{
-	border: 0.1em solid black;
+.wppb-send-credentials-checkbox{
+	display: none;
+}
+
+.wppb-default-name-heading{
+	display: none;
+}
+
+#wppb-form-element-2{
+	margin-top: 5em;
+}
+
+#register{
+	margin-bottom: 5em;
 }

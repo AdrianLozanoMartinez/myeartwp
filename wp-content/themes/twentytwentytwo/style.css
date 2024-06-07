@@ -185,3 +185,18 @@ element.style {
 .bp-pagination, .bottom, .pag-count, .pag-data{
 	display: none !important;
 }
+
+@media (max-width: 768px) {
+	.wp-container-core-columns-is-layout-3{
+		display: none !important;
+	}
+}
+
+
+.orderby, #stores_orderby  {
+	cursor: pointer !important;
+}
+
+#footer p {
+    display: none !important;
+}
