@@ -1,0 +1,551 @@
+# Translation of Plugins - Dynamic Widgets - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Dynamic Widgets - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-11-19 15:52:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Dynamic Widgets - Stable (latest release)\n"
+
+#. Tags of the plugin/theme
+msgid "widget, widgets, dynamic, sidebar, custom, rules, logic, admin, condition, conditional tags, hide, show, wpml, qtranslate, wpec, buddypress, pods"
+msgstr "widget, widgets, dinámica, barra lateral, personalizado, reglas, lógica, administrador, condición, etiquetas condicionales, ocultar, mostrar, wpml, qtranslate, wpec, buddypress, pods"
+
+#. Author URI of the plugin/theme
+msgid "http://www.qurl.nl/"
+msgstr "http://www.qurl.nl/"
+
+#. Author of the plugin/theme
+msgid "Qurl"
+msgstr "Qurl"
+
+#. Description of the plugin/theme
+msgid "Dynamic Widgets gives you full control on which pages your widgets will appear. It lets you dynamicly show or hide widgets on WordPress pages."
+msgstr "Dynamic Widgets te da control total sobre las páginas donde aparecerán tus widgets. Te permite mostrar u ocultar dinámicamente los widgets en las páginas de WordPress."
+
+#. Plugin URI of the plugin/theme
+msgid "http://dynamic-widgets.com/"
+msgstr "http://dynamic-widgets.com/"
+
+#: mods/url_module.php:53
+msgid "Except the URLs"
+msgstr "Extracto de URLs"
+
+#: mods/url_module.php:37
+msgid "Show widget at this URL?"
+msgstr "¿Mostrar el widget en esta URL?"
+
+#: mods/url_module.php:35
+msgid "URL"
+msgstr "URL"
+
+#: mods/shortcode_module.php:48
+msgid "Except when the..."
+msgstr "Extracto cuando el..."
+
+#: mods/shortcode_module.php:36
+msgid "Show widget when the shortcode ..."
+msgstr "Mostrar el widget cuando el shortcode ..."
+
+#: mods/shortcode_module.php:34
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: mods/role_module.php:26
+msgid "Anonymous"
+msgstr "Anónimo"
+
+#: mods/pages_module.php:133
+msgid ""
+"Checking the \"All childs\" option, makes the exception rule apply\n"
+"\t\t\t\t\t\tto the parent and all items under it in all levels. Also future items\n"
+"\t\t\t\t\t\tunder the parent. It's not possible to apply an exception rule to\n"
+"\t\t\t\t\t\t\"All childs\" without the parent."
+msgstr ""
+"Seleccionando la opción «Todos los hijos», se aplica la regla de excepción\n"
+"\t \t \t \t \t \t para el padre y todos los elementos por debajo de él en todos los niveles.También elementos del futuro\n"
+"\t \t \t \t \t \t por debajo del padre. No es posible aplicar una regla de excepción a\n"
+"\t \t \t \t \t \t «Todos los hijos» sin el padre."
+
+#: mods/pages_module.php:70
+msgid "Except the page(s)"
+msgstr "Excepto en la(s) página(s)"
+
+#: mods/pages_module.php:59
+msgid ""
+"Unfortunately the childs-function has been disabled\n"
+"\t\t\t\t\t\tbecause you have more than the limit of pages."
+msgstr ""
+"Desafortunadamente se ha sido desactivado childs-function \n"
+"\t \t \t \t \t \t porque tienes más del límite de páginas."
+
+#: mods/pages_module.php:52
+msgid "Posts page"
+msgstr "Página de entradas"
+
+#: mods/pages_module.php:50
+msgid "Front page"
+msgstr "Página de inicio"
+
+#: mods/ip_module.php:57
+msgid "Except the IP (ranges)"
+msgstr "Extracto de IP (rangos)"
+
+#: mods/ip_module.php:36
+msgid "Show widget for this IP (range)?"
+msgstr "¿Mostrar el widget para este IP (rango)?"
+
+#: mods/ip_module.php:34
+msgid "IP Address"
+msgstr "Dirección IP"
+
+#: mods/frontpage_module.php:21
+msgid "First page"
+msgstr "Primera página"
+
+#: mods/device_module.php:23
+msgid "Mobile"
+msgstr "Móvil"
+
+#: mods/device_module.php:23
+msgid "Desktop"
+msgstr "Ordenador de sobremesa"
+
+#: mods/date_module.php:66
+msgid "To"
+msgstr "Hasta"
+
+#: mods/date_module.php:62
+msgid "From"
+msgstr "Desde"
+
+#: mods/date_module.php:58
+msgid "only"
+msgstr "solo"
+
+#: mods/date_module.php:51
+msgid ""
+"Date ranges can be made by entering a From AND a To date<br />\n"
+"  \t\t\t\t\tWhen you want the widget to be displayed from a specific date, only fill in the From date<br />\n"
+"  \t\t\t\t\tWhen you want the widget to stop displaying on a specific date, only fill in the To date.\n"
+"  \t\t\t\t"
+msgstr ""
+"Los rangos de fecha pueden definirse mediante los parámetros Desde y Hasta.<br />\n"
+"  \t\t\t\t\tCuando quieras que el widget se muestre a partir de una fecha específica, sólo debes llenar el campo Desde.<br />\n"
+"  \t\t\t\t\tCuando quieras que el widget deje de mostrarse a partir de una fecha específica, sólo debes llenar el campo Hasta.\n"
+"  \t\t\t\t"
+
+#: mods/date_module.php:50
+msgid "Enter dates in the YYYY-MM-DD format. You can also use the calender by clicking on the"
+msgstr "Escribe las fechas en el formato YYYY-MM-DD. Siempre puedes utilizar el calendario y hacer clic en el icono"
+
+#: mods/date_module.php:49
+msgid "Next to the above role option, the date option is also very powerfull. You've been warned!"
+msgstr "Ten en cuenta que, al igual que la opción anterior, la opción de fecha es muy potente."
+
+#: mods/date_module.php:45
+msgid "Show widget always?"
+msgstr "¿Mostrar el widget siempre?"
+
+#: mods/date_module.php:43
+msgid "Date"
+msgstr "Fecha"
+
+#: mods/custompost_module.php:199
+msgid "All exceptions work in a logical OR condition. That means when one of the exceptions is met, the exception rule is applied."
+msgstr "Todas las excepciones funcionan en una condición o lógica. Eso significa que cuando se cumple una de las excepciones, se aplica la regla de excepción."
+
+#: mods/custompost_module.php:187 mods/custompost_module.php:189
+msgid "archive"
+msgstr "archivo"
+
+#: mods/custompost_module.php:163
+msgid "Posts"
+msgstr "Entradas"
+
+#: mods/custompost_module.php:159
+msgid "Pages"
+msgstr "Páginas"
+
+#: mods/custompost_module.php:110 mods/custompost_module.php:207
+#: mods/pages_module.php:108 mods/single_module.php:123
+msgid "Except for"
+msgstr "Excepto para"
+
+#: mods/custompost_module.php:76
+msgid "All exceptions (Titles and Taxonomies) work in a logical OR condition. That means when one of the exceptions is met, the exception rule is applied."
+msgstr "Todas las excepciones (títulos y taxonomías) funcionan en una condición o lógica. Eso significa que cuando se cumple una de las excepciones, se aplica la regla de excepción."
+
+#: mods/custompost_module.php:72 mods/custompost_module.php:189
+msgid "Show widget on"
+msgstr "Mostrar el widget en"
+
+#: mods/category_module.php:95 mods/custompost_module.php:284
+#: mods/pages_module.php:173
+msgid "All childs"
+msgstr "Todas las páginas-hijas"
+
+#: mods/browser_module.php:30
+msgid "Other / Unknown / Not detected"
+msgstr "Otro / Desconocido / No se ha detectado"
+
+#: mods/browser_module.php:23
+msgid "(and other Gecko based)"
+msgstr "(y otros basado en Gecko)"
+
+#: mods/bp_module.php:50
+msgid "Members Index"
+msgstr "Indice de miembros"
+
+#: mods/bp_module.php:49
+msgid "Forum Topics"
+msgstr "Debates del foro"
+
+#: mods/bp_module.php:48
+msgid "Forum Index"
+msgstr "Índice del foro"
+
+#: dynwid_admin_overview.php:187
+msgid "Uninstall"
+msgstr "Desinstalar"
+
+#: dynwid_admin_overview.php:182
+msgid "When you deceide not to use this plugin anymore (sorry to hear that!). You can cleanup all settings and data related to this plugin by clicking on the 'Uninstall' button. This process is irreversible! After the cleanup the plugin is deactivated automaticly."
+msgstr "Si decides no utilizar más este plugin, puedes eliminar todos las opciones de configuración y los datos relacionados con él haciendo clic en el botón 'Desinstalar'. Ten en cuenta que este proceso es irreversible. Una vez hecha la limpieza, el plugin se desactivará de forma automática."
+
+#: dynwid_admin_overview.php:175
+msgid "Create dump"
+msgstr "Crear volcado"
+
+#: dynwid_admin_overview.php:170
+msgid "For debugging purposes it is possible you're asked to create a dump. Click the 'Create dump' button and save the text file."
+msgstr "A efectos de depuración, es posible que se te pida crear un volcado. Haz clic en el botón 'Crear volcado' y guarda el fichero de texto."
+
+#: dynwid_admin_overview.php:163
+msgid "Create WPEC dump"
+msgstr "Crear volcado de WPEC"
+
+#: dynwid_admin_overview.php:158
+msgid "This only works correct when you did not add or change anything in the Dynamic Widgets rules."
+msgstr "Esto solamente funciona correctamente si no añadiste o modificaste nada en las reglas de Dynamic Widgets."
+
+#: dynwid_admin_overview.php:158
+msgid "WARNING"
+msgstr "Advertencia"
+
+#: dynwid_admin_overview.php:157
+msgid "When upgrading to WPEC 3.8 the Dynamic Widgets rules for WPEC are lost. The WPEC dump gives you an overview of the rules before the update."
+msgstr "Cuando actualizas a WPEC 3.8, se pierden las reglas de Dynamic Widgets para WPEC. El volcado de WPEC te brinda una descripción general de las reglas antes de la actualización."
+
+#: dynwid_admin_overview.php:150
+msgid "Currently the number of pages is"
+msgstr "Actualmente el número de páginas es"
+
+#: dynwid_admin_overview.php:148
+msgid "The page limit sets the limit of number of pages to prevent a timeout when building the hierarchical tree. When the number of pages is above this limit, a flat list will be displayed which is less time consuming."
+msgstr "El límite de página establece el límite de número de páginas para evitar un tiempo de espera al construir el árbol jerárquico. Cuando el número de páginas está por encima de este límite, se mostrará una lista plana que requiere menos tiempo."
+
+#: dynwid_admin_overview.php:146
+msgid "Page limit"
+msgstr "Límite de página"
+
+#: dynwid_admin_overview.php:136
+msgid "Use 'OLD' method"
+msgstr "Utilizar el método 'Antiguo'"
+
+#: dynwid_admin_overview.php:124
+msgid "Unable to determine if wp_head() is called"
+msgstr "el plugin ha sido incapaz de determinar si se ha invocado la función wp_head()"
+
+#: dynwid_admin_overview.php:120
+msgid "wp_head() is called"
+msgstr "la función wp_head() ha sido invocada"
+
+#: dynwid_admin_overview.php:116
+msgid "wp_head() is NOT called (at the most obvious place)"
+msgstr "la función wp_head no ha sido invocada (al menos, en su ubicación habitual)"
+
+#: dynwid_admin_overview.php:111
+msgid "wp_head() check:"
+msgstr "Comprobación de wp_head:"
+
+#: dynwid_admin_overview.php:106
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: dynwid_admin_overview.php:85
+msgid "Reset widget to Static"
+msgstr "Restablecer el widget y hacerlo estático"
+
+#: dynwid_admin_overview.php:80
+msgid "Edit"
+msgstr "Editar"
+
+#: dynwid_admin_overview.php:77 dynwid_admin_overview.php:80
+msgid "Edit this widget options"
+msgstr "Editar las opciones de este widget"
+
+#: dynwid_admin_overview.php:54
+msgid "Inactive Widgets"
+msgstr "Widgets inactivos"
+
+#: dynwid_admin_overview.php:40
+msgid "Widget options have been reset to default."
+msgstr "Las opciones del widget se han devuelto a su configuración por defecto."
+
+#: dynwid_admin_overview.php:31
+msgid "is not a valid limit."
+msgstr "no es un limite válido."
+
+#: dynwid_admin_overview.php:31
+msgid "ERROR"
+msgstr "ERROR"
+
+#: dynwid_admin_overview.php:28
+msgid "Page limit set to"
+msgstr "El límite de páginas se ha establecido en"
+
+#: dynwid_admin_overview.php:20
+msgid "Method set to"
+msgstr "El método ha sido establecido a"
+
+#: dynwid_admin_edit.php:501 dynwid_admin_edit.php:507
+#: dynwid_admin_overview.php:146
+msgid "Save"
+msgstr "Guardar"
+
+#: dynwid_admin_edit.php:331
+msgid ""
+"When you enable this option, you have the ability to apply an exception rule to tags and individual posts (Posts and Custom Post Types).\n"
+"\t\t\t\t\tYou can set the exception rule for tags in the single Edit Tag Panel (go to <a href=\"edit-tags.php?taxonomy=post_tag\">Post Tags</a>,\n"
+"\t\t\t\t\tclick a tag), For individual posts in the <em>New</em> or <em>Edit</em> Posts panel.\n"
+"\t\t\t\t\tException rules for tags and individual posts in any combination work independantly, but will always be counted as one exception.<br />\n"
+"\t  \t\t\t\t\tPlease note when this is enabled, exception rules which are set within Posts for Author and/or Category will be disabled.\n"
+"\t  \t\t\t\t"
+msgstr ""
+"Cuando activas esta opción, tienes la capacidad de aplicar una regla de excepción a etiquetas y entradas individuales (entradas y tipo de contenido personalizado).\n"
+"\t \t \t \t \t Puedes establecer la regla de excepción para etiquetas en el panel único de editar etiquetas (ves a <a href=\"edit-tags.php?taxonomy=post_tag\">Etiquetas de entradas</a>,\n"
+"\t \t \t \t \t haz clic en una etiqueta), para entradas individuales en el <em>Nuevo</em> o <em>Editar</em> panel de entradas.\n"
+"\t \t \t \t \t Las reglas de excepción para etiquetas y entradas individuales en cualquier combinación funcionan de manera independiente, pero siempre se contarán como una excepción.<br /> \n"
+"\t \t \t \t \t \t Por favor, ten en cuenta que cuando se activa esta opción, las reglas de excepción que se configuran dentro de las entradas para el autor y / o la categoría se desactivarán."
+
+#: dynwid_admin_edit.php:326
+msgid "Make exception rule available to individual posts and tags."
+msgstr "Definir una excepción para las entradas individuales y las etiquetas"
+
+#: dynwid_admin_edit.php:318
+msgid "Individual Posts, Custom Post Types and Tags"
+msgstr "Entradas individuales, tipos de contenido personalizados y etiquetas"
+
+#: dynwid_admin_edit.php:307
+msgid "Except overriding options like Role, Date, etc."
+msgstr "Excepto las opciones de anulación como perfil, fecha, etc."
+
+#: dynwid_admin_edit.php:307
+msgid "Set all options to 'No'"
+msgstr "Establece todas las opciones en 'No'"
+
+#: dynwid_admin_edit.php:305
+msgid "Quick settings"
+msgstr "Ajustes rápidos"
+
+#: dynwid_admin_edit.php:301
+msgid "Edit options for the widget"
+msgstr "Editar las opciones del widget"
+
+#: dynwid_admin_edit.php:295
+msgid "The From date can't be later than the To date."
+msgstr "La fecha del campo Desde no puede ser posterior a la fecha del campo Hasta."
+
+#: dynwid_admin_edit.php:290
+msgid "the widget from the sidebar"
+msgstr "el widget de la barra lateral"
+
+#: dynwid_admin_edit.php:290
+msgid "Remove"
+msgstr "Eliminar"
+
+#: dynwid_admin_edit.php:290
+msgid "Hint"
+msgstr "Pista"
+
+#: dynwid_admin_edit.php:290
+msgid "Dynamic does not mean static hiding of a widget."
+msgstr "Un widget dinámico no permite ocultar estáticamente un widget."
+
+#: dynwid_admin_edit.php:286
+msgid "to Dynamic Widgets overview"
+msgstr "a la vista general de Dynamic Widgets"
+
+#: dynwid_admin_edit.php:286 dynwid_admin_edit.php:507
+#: dynwid_admin_edit.php:512
+msgid "Return"
+msgstr "Volver"
+
+#: dynwid_admin_edit.php:285 dynwid_admin_overview.php:46
+msgid "Widget options saved."
+msgstr "Opciones del widget guardadas."
+
+#: dynwid_admin.php:66 dynwid_admin_overview.php:20
+msgid "FILTER"
+msgstr "FILTRO"
+
+#: dynwid_admin.php:66 dynwid_admin_overview.php:20
+msgid "OLD"
+msgstr "ANTIGUO"
+
+#: dynwid_admin.php:58
+msgid "Oops! Something went horribly wrong. Please reinstall Dynamic Widgets."
+msgstr "¡Vaya! Algo salió mal. Por favor, reinstala Dynamic Widgets."
+
+#: dynwid_admin.php:37
+msgid "<b>WARNING</b> STRICT sql mode in effect. Dynamic Widgets might not work correctly. Please disable STRICT sql mode."
+msgstr "<b>AVISO</b> El modo SQL STRICT está activado, y por tanto el plugin Dynamic Widgets podría no funcionar correctamente. Por favor, desacitva el modo SQL STRICT."
+
+#: dynamic-widgets.php:940
+msgid "Save the widget first"
+msgstr "Guardar el widget primero"
+
+#: dynamic-widgets.php:935
+msgid "Option set for"
+msgstr "Opción establecida para"
+
+#: dynamic-widgets.php:935
+msgid "Options set for"
+msgstr "Opciones establecidas para"
+
+#: dynamic-widgets.php:926
+msgid "and"
+msgstr "y"
+
+#: dynamic-widgets.php:892
+msgid "Edit Dynamic Widgets Options"
+msgstr "Editar las opciones de los widgets dinámicos"
+
+#: dynamic-widgets.php:599
+msgid "<b>ERROR</b> Your host is running a too low version of WordPress. Dynamic Widgets needs at least version"
+msgstr "<b>ERROR</b> Tu proveedor está ejecutando una versión muy baja de WordPress. Dynamic Widgets necesita al menos la versión "
+
+#: dynamic-widgets.php:592
+msgid "<b>ERROR</b> Your host is running a too low version of PHP. Dynamic Widgets needs at least version"
+msgstr "<b>ERROR</b> Tu proveedor está ejecutando una versión muy baja de PHP. Dynamic Widgets necesita al menos la versión"
+
+#: dynamic-widgets.php:565
+msgid "Reset makes the widget return to"
+msgstr "El botón de Restablecer hace que el widget vuelva a"
+
+#: dynamic-widgets.php:564 dynwid_admin_overview.php:85
+msgid "Reset"
+msgstr "Restablecer"
+
+#: dynamic-widgets.php:563
+msgid "when there are options set, i.e. not showing on the front page."
+msgstr "cuando se han definido opciones para él; por ejemplo, cuando no se muestra en la página de inicio."
+
+#: dynamic-widgets.php:563
+msgid "A widget is"
+msgstr "Un widget es"
+
+#: dynamic-widgets.php:562
+msgid "the widget uses the WordPress default. In other words, it's shown everywhere"
+msgstr "el widget utiliza la configuración por defecto de WordPress. En otras palabras, se muestra en todas partes."
+
+#: dynamic-widgets.php:562
+msgid "When a widget is"
+msgstr "Cuando un widget es"
+
+#: dynamic-widgets.php:561 dynamic-widgets.php:563 dynamic-widgets.php:894
+#: dynwid_admin_overview.php:91
+msgid "Dynamic"
+msgstr "Dinámico"
+
+#: dynamic-widgets.php:561 dynamic-widgets.php:562 dynamic-widgets.php:565
+#: dynamic-widgets.php:894 dynwid_admin_overview.php:91
+msgid "Static"
+msgstr "Estático"
+
+#: dynamic-widgets.php:559
+msgid "next to a section means it has options set."
+msgstr "junto a una sección significa que se han establecido opciones."
+
+#: dynamic-widgets.php:559
+msgid "The"
+msgstr "El"
+
+#: dynamic-widgets.php:558
+msgid "next to the options for more info"
+msgstr "siguiente de las opciones para obtener más información"
+
+#: dynamic-widgets.php:558
+msgid "Click on the"
+msgstr "Haz clic en el botón"
+
+#: dynamic-widgets.php:557
+msgid "The '<em>Yes</em>' selection"
+msgstr "La opción '<em>Sí</em>'"
+
+#: dynamic-widgets.php:557
+msgid "Widgets are always displayed by default"
+msgstr "Los widgets siempre se muestran por defecto"
+
+#: dynamic-widgets.php:454
+msgid "for"
+msgstr "para"
+
+#: dynamic-widgets.php:453
+msgid "Dynamic Widgets Options saved"
+msgstr "Se han guardado las opciones del plugin Dynamic Widgets"
+
+#: dynamic-widgets.php:390
+msgid "Default"
+msgstr "Por defecto"
+
+#: dynamic-widgets.php:353
+msgid " (Default: "
+msgstr " (Por defecto: "
+
+#: dynamic-widgets.php:352 dynamic-widgets.php:389
+msgid "On"
+msgstr "activado"
+
+#: dynamic-widgets.php:352 dynamic-widgets.php:389
+msgid "Off"
+msgstr "desactivado"
+
+#: dynamic-widgets.php:334
+msgid "Apply exception rule to widgets:"
+msgstr "Aplicar una excepción a los siguientes widgets:"
+
+#: dynamic-widgets.php:312
+msgid "Settings"
+msgstr "Ajustes"
+
+#. #-#-#-#-#  tmp-dynamic-widgets.pot (Dynamic Widgets 1.5.11)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: dynamic-widgets.php:189 dynamic-widgets.php:226 dynamic-widgets.php:249
+#: dynamic-widgets.php:370 dynamic-widgets.php:577 dynamic-widgets.php:889
+#: dynwid_admin.php:21
+msgid "Dynamic Widgets"
+msgstr "Widgets dinámicos"
+
+#: classes/dwmodule_class.php:194 mods/custompost_module.php:204
+#: mods/date_module.php:58 mods/ip_module.php:56 mods/shortcode_module.php:46
+#: mods/url_module.php:52
+msgid "No"
+msgstr "No"
+
+#: classes/dwmodule_class.php:193 mods/custompost_module.php:203
+#: mods/date_module.php:57 mods/ip_module.php:55 mods/shortcode_module.php:45
+#: mods/url_module.php:51
+msgid "Yes"
+msgstr "Sí"
+
+#: classes/dwmodule_class.php:166 dynwid_admin_edit.php:327
+#: mods/date_module.php:45 mods/ip_module.php:36 mods/shortcode_module.php:36
+#: mods/url_module.php:37
+msgid "Click to toggle info"
+msgstr "Haz clic para cambiar la información"
